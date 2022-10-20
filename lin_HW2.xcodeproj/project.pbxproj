@@ -7,19 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59571D7F2901447D0081B216 /* Music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 59571D7E2901447D0081B216 /* Music.mp3 */; };
+		59571D84290147F30081B216 /* icon2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59571D82290147F30081B216 /* icon2@3x.png */; };
+		59571D85290147F30081B216 /* icon2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59571D83290147F30081B216 /* icon2@2x.png */; };
+		59571D89290148E20081B216 /* icon1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59571D87290148E10081B216 /* icon1@3x.png */; };
+		59571D8A290148E20081B216 /* icon1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59571D88290148E10081B216 /* icon1@2x.png */; };
+		59571D9029014DFB0081B216 /* AlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59571D8F29014DFB0081B216 /* AlbumView.swift */; };
+		59571D94290150030081B216 /* KpopAlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59571D93290150030081B216 /* KpopAlbumView.swift */; };
+		59571DA029015ACE0081B216 /* iphone12 mini record.mov in Resources */ = {isa = PBXBuildFile; fileRef = 59571D9F29015ACE0081B216 /* iphone12 mini record.mov */; };
+		59571DA629015DC80081B216 /* launch screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 59571DA429015DC80081B216 /* launch screen.png */; };
+		59571DA729015DC80081B216 /* icon screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 59571DA529015DC80081B216 /* icon screen.png */; };
+		59571DAC29015F530081B216 /* ipad record.mov in Resources */ = {isa = PBXBuildFile; fileRef = 59571DAA29015F530081B216 /* ipad record.mov */; };
+		59571DAD29015F530081B216 /* dark mode record.mov in Resources */ = {isa = PBXBuildFile; fileRef = 59571DAB29015F530081B216 /* dark mode record.mov */; };
+		595E97E528FFECFF000E3953 /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595E97E428FFECFF000E3953 /* PhotoView.swift */; };
+		595E97ED28FFF734000E3953 /* crayon_1-1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 595E97EC28FFF734000E3953 /* crayon_1-1.ttf */; };
+		595E97F128FFFCFE000E3953 /* Singer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595E97F028FFFCFE000E3953 /* Singer.swift */; };
+		595E97F5290000CA000E3953 /* SingerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595E97F4290000CA000E3953 /* SingerRow.swift */; };
+		595E97F929001484000E3953 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595E97F829001484000E3953 /* AboutView.swift */; };
+		595E97FD29001598000E3953 /* SongRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595E97FC29001598000E3953 /* SongRow.swift */; };
+		595E980029001669000E3953 /* SongList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595E97FF29001669000E3953 /* SongList.swift */; };
+		595E980629002FBF000E3953 /* Penguin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595E980529002FBF000E3953 /* Penguin.swift */; };
+		595E9809290039C6000E3953 /* HipHopAlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595E9808290039C6000E3953 /* HipHopAlbumView.swift */; };
+		595E980C29013089000E3953 /* Video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 595E980B29013089000E3953 /* Video.mp4 */; };
+		595E981029014014000E3953 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595E980F29014014000E3953 /* VideoView.swift */; };
 		59B26E6028FFCA460013F599 /* lin_HW2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B26E5F28FFCA460013F599 /* lin_HW2App.swift */; };
 		59B26E6228FFCA460013F599 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B26E6128FFCA460013F599 /* ContentView.swift */; };
 		59B26E6428FFCA510013F599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59B26E6328FFCA510013F599 /* Assets.xcassets */; };
 		59B26E6728FFCA510013F599 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59B26E6628FFCA510013F599 /* Preview Assets.xcassets */; };
+		59B26E7428FFE5620013F599 /* HipHopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B26E7328FFE5620013F599 /* HipHopView.swift */; };
+		59B26E7928FFE6300013F599 /* KpopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B26E7828FFE6300013F599 /* KpopView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		59571D7E2901447D0081B216 /* Music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Music.mp3; path = ../../../../Desktop/Music.mp3; sourceTree = "<group>"; };
+		59571D82290147F30081B216 /* icon2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon2@3x.png"; sourceTree = "<group>"; };
+		59571D83290147F30081B216 /* icon2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon2@2x.png"; sourceTree = "<group>"; };
+		59571D87290148E10081B216 /* icon1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon1@3x.png"; sourceTree = "<group>"; };
+		59571D88290148E10081B216 /* icon1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon1@2x.png"; sourceTree = "<group>"; };
+		59571D8F29014DFB0081B216 /* AlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumView.swift; sourceTree = "<group>"; };
+		59571D93290150030081B216 /* KpopAlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KpopAlbumView.swift; sourceTree = "<group>"; };
+		59571D9F29015ACE0081B216 /* iphone12 mini record.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "iphone12 mini record.mov"; path = "../../../../Desktop/iphone12 mini record.mov"; sourceTree = "<group>"; };
+		59571DA429015DC80081B216 /* launch screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch screen.png"; sourceTree = "<group>"; };
+		59571DA529015DC80081B216 /* icon screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon screen.png"; sourceTree = "<group>"; };
+		59571DAA29015F530081B216 /* ipad record.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "ipad record.mov"; sourceTree = "<group>"; };
+		59571DAB29015F530081B216 /* dark mode record.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "dark mode record.mov"; sourceTree = "<group>"; };
+		595E97E428FFECFF000E3953 /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
+		595E97EC28FFF734000E3953 /* crayon_1-1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "crayon_1-1.ttf"; path = "../../../../Downloads/crayonfont/crayon_1-1.ttf"; sourceTree = "<group>"; };
+		595E97F028FFFCFE000E3953 /* Singer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singer.swift; sourceTree = "<group>"; };
+		595E97F4290000CA000E3953 /* SingerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingerRow.swift; sourceTree = "<group>"; };
+		595E97F829001484000E3953 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		595E97FC29001598000E3953 /* SongRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongRow.swift; sourceTree = "<group>"; };
+		595E97FF29001669000E3953 /* SongList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongList.swift; sourceTree = "<group>"; };
+		595E980529002FBF000E3953 /* Penguin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Penguin.swift; sourceTree = "<group>"; };
+		595E9808290039C6000E3953 /* HipHopAlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HipHopAlbumView.swift; sourceTree = "<group>"; };
+		595E980B29013089000E3953 /* Video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video.mp4; sourceTree = "<group>"; };
+		595E980F29014014000E3953 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 		59B26E5C28FFCA460013F599 /* lin_HW2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lin_HW2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59B26E5F28FFCA460013F599 /* lin_HW2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lin_HW2App.swift; sourceTree = "<group>"; };
 		59B26E6128FFCA460013F599 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		59B26E6328FFCA510013F599 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59B26E6628FFCA510013F599 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		59B26E6828FFCA510013F599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59B26E7328FFE5620013F599 /* HipHopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HipHopView.swift; sourceTree = "<group>"; };
+		59B26E7828FFE6300013F599 /* KpopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KpopView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,10 +102,35 @@
 		59B26E5E28FFCA460013F599 /* lin_HW2 */ = {
 			isa = PBXGroup;
 			children = (
+				59B26E6828FFCA510013F599 /* Info.plist */,
 				59B26E5F28FFCA460013F599 /* lin_HW2App.swift */,
 				59B26E6128FFCA460013F599 /* ContentView.swift */,
+				59B26E7328FFE5620013F599 /* HipHopView.swift */,
+				59B26E7828FFE6300013F599 /* KpopView.swift */,
+				595E97F4290000CA000E3953 /* SingerRow.swift */,
+				595E97FF29001669000E3953 /* SongList.swift */,
+				595E97FC29001598000E3953 /* SongRow.swift */,
+				595E97F028FFFCFE000E3953 /* Singer.swift */,
+				595E97E428FFECFF000E3953 /* PhotoView.swift */,
+				595E9808290039C6000E3953 /* HipHopAlbumView.swift */,
+				59571D93290150030081B216 /* KpopAlbumView.swift */,
+				59571D8F29014DFB0081B216 /* AlbumView.swift */,
+				595E980F29014014000E3953 /* VideoView.swift */,
+				595E97F829001484000E3953 /* AboutView.swift */,
+				595E980529002FBF000E3953 /* Penguin.swift */,
+				595E97EC28FFF734000E3953 /* crayon_1-1.ttf */,
+				59571D7E2901447D0081B216 /* Music.mp3 */,
+				595E980B29013089000E3953 /* Video.mp4 */,
+				59571D88290148E10081B216 /* icon1@2x.png */,
+				59571D87290148E10081B216 /* icon1@3x.png */,
+				59571D83290147F30081B216 /* icon2@2x.png */,
+				59571D82290147F30081B216 /* icon2@3x.png */,
+				59571D9F29015ACE0081B216 /* iphone12 mini record.mov */,
+				59571DAA29015F530081B216 /* ipad record.mov */,
+				59571DAB29015F530081B216 /* dark mode record.mov */,
+				59571DA529015DC80081B216 /* icon screen.png */,
+				59571DA429015DC80081B216 /* launch screen.png */,
 				59B26E6328FFCA510013F599 /* Assets.xcassets */,
-				59B26E6828FFCA510013F599 /* Info.plist */,
 				59B26E6528FFCA510013F599 /* Preview Content */,
 			);
 			path = lin_HW2;
@@ -126,8 +201,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59571DAD29015F530081B216 /* dark mode record.mov in Resources */,
+				595E97ED28FFF734000E3953 /* crayon_1-1.ttf in Resources */,
+				59571DAC29015F530081B216 /* ipad record.mov in Resources */,
+				59571DA029015ACE0081B216 /* iphone12 mini record.mov in Resources */,
+				59571D84290147F30081B216 /* icon2@3x.png in Resources */,
+				59571DA729015DC80081B216 /* icon screen.png in Resources */,
+				59571DA629015DC80081B216 /* launch screen.png in Resources */,
+				59571D85290147F30081B216 /* icon2@2x.png in Resources */,
 				59B26E6728FFCA510013F599 /* Preview Assets.xcassets in Resources */,
+				59571D8A290148E20081B216 /* icon1@2x.png in Resources */,
+				59571D89290148E20081B216 /* icon1@3x.png in Resources */,
+				59571D7F2901447D0081B216 /* Music.mp3 in Resources */,
 				59B26E6428FFCA510013F599 /* Assets.xcassets in Resources */,
+				595E980C29013089000E3953 /* Video.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +225,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				595E980629002FBF000E3953 /* Penguin.swift in Sources */,
+				595E980029001669000E3953 /* SongList.swift in Sources */,
+				595E97F929001484000E3953 /* AboutView.swift in Sources */,
+				595E97FD29001598000E3953 /* SongRow.swift in Sources */,
+				595E97F5290000CA000E3953 /* SingerRow.swift in Sources */,
 				59B26E6228FFCA460013F599 /* ContentView.swift in Sources */,
 				59B26E6028FFCA460013F599 /* lin_HW2App.swift in Sources */,
+				59B26E7928FFE6300013F599 /* KpopView.swift in Sources */,
+				595E9809290039C6000E3953 /* HipHopAlbumView.swift in Sources */,
+				595E97E528FFECFF000E3953 /* PhotoView.swift in Sources */,
+				59571D9029014DFB0081B216 /* AlbumView.swift in Sources */,
+				59571D94290150030081B216 /* KpopAlbumView.swift in Sources */,
+				59B26E7428FFE5620013F599 /* HipHopView.swift in Sources */,
+				595E97F128FFFCFE000E3953 /* Singer.swift in Sources */,
+				595E981029014014000E3953 /* VideoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
