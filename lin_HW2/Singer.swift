@@ -6,7 +6,7 @@
 //
 import Foundation
 
-struct Singer {
+struct Singer : Identifiable{
     let id = UUID()
     let name: String
     let songs:[String]

@@ -20,6 +20,7 @@ struct Penguin: View {
                             .resizable()
                             .frame(width: 200, height: 100, alignment: .center)
                             .opacity(opacity)
+                            .animation(.default)
                             .clipShape(Circle())
                     }
         }
